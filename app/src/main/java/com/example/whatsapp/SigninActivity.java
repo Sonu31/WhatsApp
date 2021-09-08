@@ -31,6 +31,7 @@ ActivitySigninBinding binding;
     ProgressDialog progressDialog;
     FirebaseAuth auth;
     GoogleSignInClient mGoogleSignInClient;
+    //GoogleSignInClient laga raha hu muj error show kar rha hai 
 
 
 
@@ -54,11 +55,11 @@ ActivitySigninBinding binding;
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
-                .requestEmail()
+                .requestEmail()                   //---------------------
                 .build();
 
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
-
+                            //------------
 
 
 
@@ -116,7 +117,7 @@ ActivitySigninBinding binding;
     int  RC_SIGN_IN = 54;
 
     private void signIn() {
-        Intent signInIntent = mGoogleSignInClient.getSignInIntent();
+        Intent signInIntent = mGoogleSignInClient.getSignInIntent();//----------
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
 

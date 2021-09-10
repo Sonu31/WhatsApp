@@ -2,7 +2,7 @@
 
     Signup page
     ------   
-    ![2021-09-10 22 49 19](https://user-images.githubusercontent.com/81131231/132892818-fea6d7eb-86cb-45af-9d4d-de586e5cd8f7.jpg)
+![2021-09-10 22 49 19](https://user-images.githubusercontent.com/81131231/132892818-fea6d7eb-86cb-45af-9d4d-de586e5cd8f7.jpg)
     
     Signin page
     -------
